@@ -80,7 +80,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
-    - _Freezeeffectnormal: 8.66
+    - _Freezeeffectnormal: 7.07
     - _Freezing: 4.28
     - _Gloss: 0.335
     - _Gloss2: 0.763
@@ -88,9 +88,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Ice_fres: 2.54
-    - _Ice_fresnel: 2.8
+    - _Ice_fresnel: 3
     - _LocalGlobal: 1
-    - _Metallic: 0.415
+    - _Metallic: 0
     - _Mode: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -99,7 +99,7 @@ Material:
     - _SrcBlend: 5
     - _SwitchDirec: 1
     - _Transp: 0.128
-    - _Transparency: 0.185
+    - _Transparency: 0.477
     - _UVSec: 0
     - _ZWrite: 0
     - _freeze: 0.46
@@ -110,9 +110,9 @@ Material:
     - _node_5912: 0.6
     - _node_8801: 1.91
     - _node_9046: 1.12
-    - _snow_slider: 1.41
+    - _snow_slider: 5.43
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.253}
+    - _Color: {r: 0, g: 0.7935179, b: 0.8018868, a: 0.253}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _node_5379: {r: 1, g: 0.6397059, b: 0.6397059, a: 1}
     - _node_6644: {r: 0.5147059, g: 0.7389455, b: 1, a: 1}
