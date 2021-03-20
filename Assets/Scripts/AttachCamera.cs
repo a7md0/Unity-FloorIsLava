@@ -6,6 +6,7 @@ public class AttachCamera : MonoBehaviour
 {
     public GameObject player;
     public Vector3 offset = new Vector3(0f, 1.3f, -3.3f);
+    private Vector3 playerPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,9 @@ public class AttachCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPosition = player.transform.position;
+        if (player != null) { 
+            playerPosition = player.transform.position;
+        }
         transform.position = playerPosition + offset;
     }
 }
