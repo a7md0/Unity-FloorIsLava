@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimateGem : MonoBehaviour
-{
-    // Update is called once per frame
-    void FixedUpdate()
-    {
+public class AnimateCoin : MonoBehaviour {
+    void FixedUpdate() {
         transform.Rotate(2, 2, 2);
     }
 }
